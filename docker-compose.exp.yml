@@ -1,0 +1,4 @@
+services:
+  orakki:
+    image: orakki:sdp-sendonly-exp
+    pull_policy: never

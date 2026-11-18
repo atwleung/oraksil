@@ -1,0 +1,4 @@
+services:
+  gipan:
+    environment:
+      GAME: tndrcade

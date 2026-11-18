@@ -1,0 +1,18 @@
+# Local database and message queue state
+/data/db/
+/data/mq/
+
+# Ignore locally collected ROMs
+/roms/*
+
+
+# Separately maintained WebRTC source repository
+/orakki/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# macOS files
+.DS_Store
