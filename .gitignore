@@ -6,8 +6,11 @@
 /roms/*
 
 
-# Separately maintained WebRTC source repository
+# Separately maintained child repositories
 /orakki/
+/azumma/
+/esekki/
+/gipan/
 
 # Local secrets
 .env
