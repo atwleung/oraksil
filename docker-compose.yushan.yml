@@ -1,0 +1,10 @@
+services:
+  azumma:
+    image: oraksil/azumma:yushan
+    build:
+      context: ./azumma
+
+  esekki:
+    image: oraksil/esekki:yushan
+    build:
+      context: ./esekki

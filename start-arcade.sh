@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+
+cd "$(dirname "$0")"
+
+docker compose \
+  -f docker-compose.yml \
+  -f docker-compose.exp.yml \
+  -f docker-compose.game.yml \
+  -f docker-compose.yushan.yml \
+  up -d
+
