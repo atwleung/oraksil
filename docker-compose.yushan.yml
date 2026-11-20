@@ -8,3 +8,11 @@ services:
     image: oraksil/esekki:yushan
     build:
       context: ./esekki
+
+  orakki:
+    image: orakki:sdp-sendonly-exp
+    build:
+      context: ./orakki
+      dockerfile: Dockerfile
+
+
